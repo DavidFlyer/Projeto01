@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(102, 123, 151);
+    margin: 0 15px 0 25px;
+}
+ul{
+    list-style: none;
+}
+/*---------------Header--------------*/
+.header{
+    display:flex;
+    justify-content:space-between;
+    margin: auto;
+}
+.headerLeft{
+    padding:10px 0 0 0;
+}
+.headerRight{
+    display:flex;
+    align-items: center;
+}
+.headerRight li img{
+    margin:0 5px 0 5px;
+}
+.connectionIcon{
+    padding: 0px 15px 0 15px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+}
+/*---------------Barcode--------------*/
+.tdScanned{
+    font-weight:lighter;
+    color: rgb(102, 123, 151);
+    padding: 5px 0 0 10px;
+    text-align: left;
+}
+.barcode{
+    border-bottom: 1px solid rgb(216, 216, 216);
+    text-align: right;
+}
+/*---------------Vehicle--------------*/
+.current-vehicle-picture{
+    text-align: center;
+    font-size: 30px;
+    margin: 15px 0 30px 0;
+}
+/*---------------Inspection Item--------------*/
+.InspectionItem{
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 12px;
+}
+.partItem{
+    background: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+.partLines{
+}
+.tdParts{
+    background: rgb(255, 255, 255);
+    color:rgb(124, 123, 123);
+}
+.tdPartName{
+    font-weight:bold;
+    font-size: 30px;
+    margin: 15px 0 0 15px;
+    color: rgb(151, 150, 150);
+}
+.tdPartNumber{
+    font-weight:lighter;
+    font-size: 20px;
+    color: rgb(102, 123, 151);
+    margin: 10px 0 15px 15px;
+}
+.tdChecks{
+    background: rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    padding: 20px 6% 20px 6%;
+    border-radius: 0 11px 11px 0;
+}
